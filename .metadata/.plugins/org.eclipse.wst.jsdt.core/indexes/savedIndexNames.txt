@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+D:\LAB_EXAM\JNKS\FULLSTACK\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3550840582.index
+3173977193.index
+773512103.index
+1757636624.index
+528027454.index
+1741846864.index
