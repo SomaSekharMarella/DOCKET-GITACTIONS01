@@ -126,7 +126,7 @@ const SportsManager = () => {
         </div>
       )}
 
-      <h2>Sports Management</h2>
+      <h2>Cricket Team Management</h2>
 
       <div>
         <h3>{editMode ? 'Edit Player' : 'Add Player'}</h3>
@@ -141,13 +141,9 @@ const SportsManager = () => {
           <select name="sport" value={player.sport} onChange={handleChange}>
             <option value="">Select Sport</option>
             <option value="Cricket">Cricket</option>
-            <option value="Football">Football</option>
-            <option value="Basketball">Basketball</option>
-            <option value="Badminton">Badminton</option>
-            <option value="Athletics">Athletics</option>
           </select>
           <input type="text" name="team" placeholder="Team" value={player.team} onChange={handleChange} />
-          <input type="text" name="position" placeholder="Position (e.g. Goalkeeper, Batsman)" value={player.position} onChange={handleChange} />
+          <input type="text" name="position" placeholder="Position (e.g. Bowler, Batsman)" value={player.position} onChange={handleChange} />
           <input type="text" name="coach" placeholder="Coach Name" value={player.coach} onChange={handleChange} />
           <select name="level" value={player.level} onChange={handleChange}>
             <option value="">Select Level</option>
